@@ -24,7 +24,7 @@ export default function Home() {
     setPlay(true);
   },[])
   return (
-    <div>
+    <div >
 
       <Head>
         <title>CMP - Home</title>
@@ -68,7 +68,7 @@ export default function Home() {
               FAÇA UMA AVALIAÇÃO
             </p>
           </Link>
-          <div className="lg:mt-40 mt-10 flex justify-end gap-8">
+          <div className="lg:mt-40 flex justify-end gap-8">
             <Link href="https://www.instagram.com/ctcmpmoc/" target="_blank">
             <FaInstagram size={20} color="white" />
             </Link>
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-black w-auto text-white text-center md:-mt-14 p-20">
+      <div className="bg-black w-auto text-white text-center lg:-mt-14 -mt-4 p-10">
         <p className=" lg:w-1/3 m-auto font-semibold text-4xl">
           Esqueça tudo o que você conhece sobre{" "}
           <strong className="font-semibold text-4xl text-bg-yellow-ct">
@@ -249,21 +249,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full lg:h-80 h-28">
-        <Image src={mapa} alt="mapa" className="absolute -z-10 object-cover"/>
+      <div className="bg-[url('../assets/mapa.png')] bg-cover bg-center h-32 w-full">
       </div>
 
       <div className="w-full lg:py-20 bg-bg-black-ct">
-        <div className="lg:w-9/12 lg:px-0 px-4 flex flex-col items-center justify-center  m-auto pt-20">
+        <div className="lg:w-9/12 lg:px-0 px-2 flex flex-col items-center justify-center  m-auto pt-20">
           <strong className="bg-bg-yellow-ct text-center rounded px-5 text-sm  tracking-widest  text-black font-Unimed">
             SEJA O ATLETA QUE VOCÊ PODE SER
           </strong>
-          <p className="mt-10 text-white lg:text-5xl text-2xl font-bold">
+          <p className="mt-10 text-white lg:text-5xl text-xl font-bold">
             Nossos princípios
           </p>
-          <div className="flex justify-between gap-3">
-            <p className="mt-10 text-white lg:text-5xl text-2xl font-bold">
-              Nossa missão //
+          <div className="flex justify-between gap-1">
+            <p className="mt-10 text-white lg:text-5xl text-xl font-bold">
+              Nossa missão // 
             </p>
             <p
               className="mt-10 lg:text-5xl text-2xl text-bg-black-ct font-bold"
@@ -272,10 +271,10 @@ export default function Home() {
                   "-1px -1px 0px #FFF,-1px 1px 0px #FFF,1px -1px 0px #FFF,1px 0px 0px #FFF",
               }}
             >
-              Nossa visão
+             {" "} Nossa visão
             </p>
           </div>
-          <p className="mt-10 lg:text-5xl text-2xl text-white font-bold">
+          <p className="mt-10 lg:text-5xl text-xl text-white font-bold">
             Nossa filosofia
           </p>
           <Link

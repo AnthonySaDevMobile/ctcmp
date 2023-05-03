@@ -56,7 +56,7 @@ export default function Header({ position, background }) {
 
       <section className="MOBILE-MENU flex w-96 text-right  sm:hidden">
         <div
-          className="space-y-2 ml-40"
+          className="space-y-2 max-[320px]:ml-28 ml-36"
           onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
         >
           <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>

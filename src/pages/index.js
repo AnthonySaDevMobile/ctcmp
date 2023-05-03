@@ -64,7 +64,7 @@ export default function Home() {
             href="https://api.whatsapp.com/send?phone=38999337788"
             target="_blank"
           >
-            <p className="text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black">
+            <p className="max-[340px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black">
               FAÇA UMA AVALIAÇÃO
             </p>
           </Link>

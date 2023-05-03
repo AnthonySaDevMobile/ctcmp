@@ -185,8 +185,8 @@ export default function Services() {
             resultados de alto impacto.
           </div>
         </div>
-        <div className="w-full">
-          <Image src={backgroundCT} alt="splash" className="lg:h-[600px]" />
+        <div className="bg-[url('../assets/serviços-fachada.png')] bg-cover bg-center w-full h-96 hover:opacity-80 hover:cursor-pointer transition-opacity duration-300 ">
+
         </div>
         <Footer />
       </div>

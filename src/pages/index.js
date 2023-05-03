@@ -64,7 +64,7 @@ export default function Home() {
             href="https://api.whatsapp.com/send?phone=38999337788"
             target="_blank"
           >
-            <p className="max-[340px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black">
+            <p className="max-[340px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black ">
               FAÇA UMA AVALIAÇÃO
             </p>
           </Link>
@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-black w-auto text-white text-center lg:-mt-14 -mt-4 p-10">
+      <div className="bg-black w-auto text-white text-center sm:-mt-22 -mt-6 p-10">
         <p className=" lg:w-1/3 m-auto font-semibold text-4xl">
           Esqueça tudo o que você conhece sobre{" "}
           <strong className="font-semibold text-4xl text-bg-yellow-ct">

@@ -70,12 +70,12 @@ export default function Home() {
           </Link>
           <div className="lg:mt-40 flex justify-end max-[320px]:gap-3 gap-8">
             <Link href="https://www.instagram.com/ctcmpmoc/" target="_blank">
-            <FaInstagram size={20} color="white" />
+            <FaInstagram size={18} color="white" />
             </Link>
             
-            <FaTelegramPlane size={20} color="white" />
+            <FaTelegramPlane size={18} color="white" />
 
-            <FaYoutube size={20} color="white" />
+            <FaYoutube size={18} color="white" />
           
           </div>
         </div>

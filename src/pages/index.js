@@ -68,7 +68,7 @@ export default function Home() {
               FAÇA UMA AVALIAÇÃO
             </p>
           </Link>
-          <div className="lg:mt-40 flex justify-end gap-8">
+          <div className="lg:mt-40 flex justify-end max-[320px]:gap-3 gap-8">
             <Link href="https://www.instagram.com/ctcmpmoc/" target="_blank">
             <FaInstagram size={20} color="white" />
             </Link>

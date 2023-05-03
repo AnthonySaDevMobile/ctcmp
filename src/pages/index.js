@@ -16,10 +16,10 @@ import CarouselComponent from "@/components/Carousel";
 import Coments from "@/components/Coments";
 import Link from "next/link";
 import Head from "next/head";
-import mapa from '../assets/mapa.png'
+
 
 export default function Home() {
-  const [play, setPlay]= useState(false);
+  const [play, setPlay]= useState(true);
   useEffect(()=>{
     setPlay(true);
   },[])
@@ -265,7 +265,7 @@ export default function Home() {
               Nossa missão // 
             </p>
             <p
-              className="mt-10 lg:text-5xl text-2xl text-bg-black-ct font-bold"
+              className="mt-10 lg:text-5xl text-xl text-bg-black-ct font-bold"
               style={{
                 textShadow:
                   "-1px -1px 0px #FFF,-1px 1px 0px #FFF,1px -1px 0px #FFF,1px 0px 0px #FFF",

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Header from "@/components/Header";
 import {
   FaInstagram,
@@ -19,12 +19,9 @@ import Head from "next/head";
 
 
 export default function Home() {
-  const [play, setPlay]= useState(true);
-  useEffect(()=>{
-    setPlay(true);
-  },[])
+
   return (
-    <div >
+    <div>
 
       <Head>
         <title>CMP - Home</title>
@@ -37,21 +34,22 @@ export default function Home() {
         <meta name="theme-color" content="#ffffff"/> 
       </Head>
 
-      <video
-        loop
-        autoPlay={play}
-        src={"/VideoBackground.mp4"}
-        className="absolute brightness-50 w-full bg-bg-black-ct object-fill h-full -z-10 "
-      />
       <Header
         position={"fixed"}
         background={
           "linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
         }
       />
+      <div className="w-full h-screen">
+        <video
+          loop
+          autoPlay={true}
+          src={"/VideoBackground.mp4"}
+          className="h-full brightness-50 w-full object-cover"
+        />
 
-      <div className="h-full max-[350px]:h-[500px]  w-full z-10 flex items-center max-[350px]:flex max-[350px]:text-xs">
-        <div className="font-Montserrat-Bold w-9/12 m-auto text-left mt-36 lg:py-16 py-14 ">
+        <div className="absolute h-full w-full px-2 top-0 flex flex-col items-start justify-center">
+        <div className="font-Montserrat-Bold text-left  sm:px-24 sm:py-44 xl:px-48 w-full mt-10">
           <p className="text-white text-5xl tracking-wide mb-3 max-[350px]:text-2xl">SEJA O</p>
           <p className="text-bg-yellow-ct text-5xl tracking-wide mb-3 font-bold max-[350px]:text-2xl">
             ATLETA
@@ -64,11 +62,11 @@ export default function Home() {
             href="https://api.whatsapp.com/send?phone=38999337788"
             target="_blank"
           >
-            <p className="max-[350px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black ">
+            <p className="max-[340px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black ">
               FAÇA UMA AVALIAÇÃO
             </p>
           </Link>
-          <div className="lg:mt-40 flex justify-end max-[320px]:gap-3 gap-8">
+          <div className="sm:mt-40 flex justify-end max-[320px]:gap-3 gap-8">
             <Link href="https://www.instagram.com/ctcmpmoc/" target="_blank">
             <FaInstagram size={18} color="white" />
             </Link>
@@ -80,8 +78,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </div>
 
-      <div className="bg-black w-auto text-white text-center sm:-mt-22 -mt-6 p-10">
+      <div className="bg-black w-auto text-white text-center py-20">
         <p className=" lg:w-1/3 m-auto font-semibold text-4xl">
           Esqueça tudo o que você conhece sobre{" "}
           <strong className="font-semibold text-4xl text-bg-yellow-ct">
@@ -249,7 +248,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[url('../assets/mapa.png')] bg-cover bg-center h-32 w-full">
+      <div className="bg-[url('../assets/mapa.png')] bg-cover bg-center h-44 w-full">
       </div>
 
       <div className="w-full lg:py-20 bg-bg-black-ct">

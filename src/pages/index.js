@@ -50,21 +50,21 @@ export default function Home() {
         }
       />
 
-      <div className="h-full w-full z-10 flex items-center">
-        <div className="font-Montserrat-Bold w-9/12 m-auto text-left mt-36 lg:py-16 py-14">
-          <p className="text-white text-5xl tracking-wide mb-3 ">SEJA O</p>
-          <p className="text-bg-yellow-ct text-5xl tracking-wide mb-3 font-bold">
+      <div className="h-full max-[350px]:h-[500px]  w-full z-10 flex items-center max-[350px]:flex max-[350px]:text-xs">
+        <div className="font-Montserrat-Bold w-9/12 m-auto text-left mt-36 lg:py-16 py-14 ">
+          <p className="text-white text-5xl tracking-wide mb-3 max-[350px]:text-2xl">SEJA O</p>
+          <p className="text-bg-yellow-ct text-5xl tracking-wide mb-3 font-bold max-[350px]:text-2xl">
             ATLETA
           </p>
-          <p className="text-white text-5xl tracking-wide mb-3">QUE VOCÊ</p>
-          <p className="text-white text-5xl tracking-wide mb-3 font-bold">
+          <p className="text-white text-5xl tracking-wide mb-3 max-[350px]:text-2xl">QUE VOCÊ</p>
+          <p className="text-white text-5xl tracking-wide mb-3 font-bold max-[350px]:text-2xl">
             PODE SER!
           </p>
           <Link
             href="https://api.whatsapp.com/send?phone=38999337788"
             target="_blank"
           >
-            <p className="max-[340px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black ">
+            <p className="max-[350px]:text-xs text-sm mt-10 border rounded transition ease-in delay-75 font-semibold border-solid border-bg-yellow-ct w-2/5 lg:w-1/5 text-center text-white p-1 hover:bg-bg-yellow-ct hover:text-black ">
               FAÇA UMA AVALIAÇÃO
             </p>
           </Link>

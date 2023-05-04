@@ -99,7 +99,7 @@ export default function About() {
       </div>
 
        
-        <div className=" py-14 w-full bg-bg-yellow-ct">
+        <div className=" py-14 w-full bg-bg-yellow-ct" id="vision">
           <div className="lg:w-9/12 lg:m-auto w-full mr-2 lg:gap-20 lg:flex justify-around p-16">
             <div className="bg-white px-5 py-7 text-center">
               <strong className="tracking-wide text-xl">NOSSA MISSÃO</strong>

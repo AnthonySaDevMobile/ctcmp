@@ -30,7 +30,7 @@ export default function Contact() {
             <SwiperSlide>
             <div className="flex gap-10 sm:h-32 h-36 mb-10">
             <Image src={perfilImage1} alt="PerfilImage" className="sm:h-32 sm:w-36 h-40 w-40" />
-            <div className="sm:w-1/2 w-3/5 sm:px-0 px-4 sm:text-base text-xs">
+            <div className="sm:w-1/2 w-3/5 sm:px-0 px-4 md:text-sm text-xs">
               <p>
                 "Eu sou um cliente da academia há mais de um ano e posso dizer
                 com certeza que é o melhor lugar para se exercitar na cidade. O
@@ -45,7 +45,7 @@ export default function Contact() {
             <SwiperSlide>
             <div className="flex gap-10 sm:h-32 h-40 mb-10">
             <Image src={perfilImage1} alt="PerfilImage" className="sm:h-32 sm:w-36 h-40 w-40" />
-            <div className=" sm:w-1/2 w-3/5 sm:px-0 px-4 sm:text-base text-xs">
+            <div className=" sm:w-1/2 w-3/5 sm:px-0 px-4 md:text-sm text-xs">
               <p>
                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
               </p>

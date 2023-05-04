@@ -49,7 +49,7 @@ export default function CarouselComponent() {
                 </strong>
               </div>
             </div>
-            <p className="sm:w-9/12 w-ful text-white text-lg m-auto py-5">
+            <p className="sm:w-9/12 w-full text-white text-base m-auto py-5">
               Os pequenos <strong>acima de 11 anos</strong> de idade também têm
               sua oportunidade de crescer saudáveis.
             </p>
@@ -64,7 +64,7 @@ export default function CarouselComponent() {
                 </strong>
               </div>
             </div>
-            <p className="sm:w-9/12 w-full text-lg m-auto text-white py-5">
+            <p className="sm:w-9/12 w-full text-base m-auto text-white py-5">
               Os pequenos <strong>acima de 11 anos</strong> de idade também têm
               sua oportunidade de crescer saudáveis.
             </p>
@@ -79,7 +79,7 @@ export default function CarouselComponent() {
                 </strong>
               </div>
             </div>
-            <p className="sm:w-9/12 w-fultext-lg m-auto text-white py-5">
+            <p className="sm:w-9/12 w-full text-base m-auto text-white py-5">
               Os pequenos <strong>acima de 11 anos</strong> de idade também têm
               sua oportunidade de crescer saudáveis.
             </p>

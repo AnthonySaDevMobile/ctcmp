@@ -54,14 +54,14 @@ export default function Header({ position, background }) {
         </nav>
       </div>
 
-      <section className="MOBILE-MENU flex w-96 text-right  sm:hidden">
+      <section className="MOBILE-MENU flex w-96 text-right md:hidden">
         <div
-          className="space-y-2 max-[320px]:ml-28 ml-36"
+          className="space-y-2 max-[320px]:ml-28 ml-44"
           onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
         >
-          <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-          <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-          <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+          <span className="block h-0.5 w-8 animate-pulse bg-bg-yellow-ct hover:bg-yellow-600"></span>
+          <span className="block h-0.5 w-8 animate-pulse bg-bg-yellow-ct hover:bg-yellow-600"></span>
+          <span className="block h-0.5 w-8 animate-pulse bg-bg-yellow-ct hover:bg-yellow-600"></span>
         </div>
 
         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -121,7 +121,7 @@ export default function Header({ position, background }) {
         width: 100%;
         height: 100vh;
         top: 0;
-        left: 0;
+        right: 0;
         background: #161616;
         z-index: 10;
         display: flex;

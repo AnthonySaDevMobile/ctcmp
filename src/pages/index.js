@@ -277,8 +277,7 @@ export default function Home() {
             Nossa filosofia
           </p>
           <Link
-            href="https://api.whatsapp.com/send?phone=38999337788"
-            target="_blank"
+            href="/about#vision"
           >
             <div className="flex mb-10 items-center gap-2 bg-bg-yellow-ct mt-10 hover:bg-white text-center rounded p-2 lg:text-xl text-base text-black font-Montserrat-Bold">
               COMECE AGORA!
